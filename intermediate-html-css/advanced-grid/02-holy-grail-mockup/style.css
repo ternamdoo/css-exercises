@@ -20,7 +20,7 @@
 
 .header {
   background-color: #393f4d;
-  grid-column: 1 / -1;
+  grid-column: 1 / 3;
 }
 
 .menu ul,
@@ -51,7 +51,7 @@
 
 .nav {
   background-color: #C50208;
-  grid-column: 2 / -1;
+  grid-column: 2 / 3;
 }
 
 .nav ul li {
@@ -61,7 +61,7 @@
 
 .article {
   background-color: #bccbde;
-  grid-column: 2 / -1;
+  grid-column: 2 / 3;
 }
 
 .article p {
