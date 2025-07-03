@@ -38,8 +38,16 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-row: 2 / 4;
   grid-column: 1 / 2;
+  display: grid;
+  gap: 50px;
 }
+
+.sidebar .photo,
+.sidebar .side-content {
+  display: grid;
+  align-items: center;}
 
 .sidebar .photo {
   background-color: white;
@@ -48,7 +56,6 @@
   font-weight: normal;
   border-radius: 10px;
 }
-
 
 .sidebar .side-content {
   background-color: white;
